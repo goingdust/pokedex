@@ -1,7 +1,7 @@
 import { createInterface, type Interface } from "readline";
 import { stdin, stdout } from "process";
 import { getCommands } from "./get_commands.js";
-import { PokeAPI, Pokemon } from "./pokeapi.js";
+import { PokeAPI } from "./pokeapi.js";
 import { Pokedex } from "./pokedex.js";
 
 export type CLICommand = {
